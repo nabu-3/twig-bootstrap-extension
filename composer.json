@@ -1,0 +1,42 @@
+{
+    "type": "library",
+    "name": "nabu-3/twig-bootstrap-extension",
+    "description": "nabu-3 Twig Bootstrap extension to create layouts with Bootstrap 4 easier",
+    "keywords": [ "nabu-3", "nabu", "twig", "extension", "bootstrap" ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/nabu-3/twig-bootstrap-extension"
+        }
+    ],
+    "version": "3.0.0",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Rafael Gutierrez",
+            "email": "rgutierrez@nabu-3.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nabu-3/twig-bootstrap-extension/issues",
+        "email": "contact@nabu-3.com",
+        "source": "https://github.com/nabu-3/twig-bootstrap-extension"
+    },
+    "require": {
+        "twig/twig": "~1.34|~2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}

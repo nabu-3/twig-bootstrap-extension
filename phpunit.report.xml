@@ -1,0 +1,5 @@
+<testsuites>
+    <testsuite name="Twig Bootstrap Extensions Tests">
+        <directory>tests/nabu/twig/bootstrap</directory>
+    </testsuite>
+</testsuites>
